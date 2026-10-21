@@ -117,7 +117,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
-  123
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
   HAL_UART_Receive_IT(&huart3, (uint8_t *)rgbdata, 6);
   while (1)
